@@ -4,9 +4,9 @@ import TwoPlayers
 def JouerContreHumain () :
     
     #les deux joueurs entre leurs noms / pseudos
-    NomJoueur1 = str(input (" Que le Joueur 1 entre son nom : "))
+    NomJoueur1 = str(input ("\n Que le Joueur 1 entre son nom : "))
     NomJoueur2 = str(input (" Que le Joueur 2 entre son nom : "))
-    
+    print("\n")
     NbreBatonnets = random.randint (20,30) #Nombre de bâtonnets pour cette partie
     Effets.AffichageLentePhrase("Dans cette partie, il y aura " + str (NbreBatonnets) + " bâtonnets" + "\n")
     Effets.AffichageLentePhrase ("Bien, il reste à décider de qui commence pour ce jeu. Bien evidemment ce sera aléatoire" + "\n")

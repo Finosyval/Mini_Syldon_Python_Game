@@ -19,7 +19,7 @@ def Point(nbreDePoints):
     
 def AffichageLentePhrase (Phrase) : 
     for i in Phrase :
-        print (i, end = "", flush=True)
+        print (i, flush=True,end="")
         Pause(0.1)
     Point(3)
 
