@@ -18,7 +18,7 @@ def OrdiCommence (NbBat) :
         BatonnetsTiresParOrdi =ChoixOrdi(NbBat)
         if BatonnetsTiresParOrdi > NbBat :
             BatonnetsTiresParOrdi = NbBat
-        Effets.AffichageLentePhrase("L'ordi a choisi" + " " + str (BatonnetsTiresParOrdi) + "\n")
+        Effets.AffichageLentePhrase("L'ordi a choisi" + " " + str (BatonnetsTiresParOrdi) + "\n\n")
         NbBat -= BatonnetsTiresParOrdi
         if NbBat ==0 :
             Effets.FinDuJeu(" l'ordi ")
