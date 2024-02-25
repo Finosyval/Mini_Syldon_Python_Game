@@ -7,10 +7,11 @@ import Greeting
 
 Greeting.Salutation () #petite salutation
 while True  : 
-    PlayerOptions.ModeDeJeu() # si le joueur veut affronter l'ordi ou un ami
-
-
-    if PlayerOptions.ModeDeJeu == 1 :
+    mode = PlayerOptions.ModeDeJeu() # si le joueur veut affronter l'ordi ou un ami
+    
+    
+    
+    if mode == 1 :
         PlayVsComputer.JouerContreOrdi()  #Le joueur affronte l'ordi
     else :
         PlayAgainstHuman.JouerContreHumain() # Le joueur affronte u autre joueur
