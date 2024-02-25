@@ -1,0 +1,11 @@
+Note 1
+
+Si tu recois des erreurs zarb à la fin, verifies si c'est pas "PlayerOptions". 
+Il est importé dans PlayAgainstComputer et dans le main or PlayAgainstComputer est egalement 
+importé dans le main
+
+
+Note 2 
+
+##Il est bon de prendre l'habitude d'avoir ce genre de notes à soi même.
+
